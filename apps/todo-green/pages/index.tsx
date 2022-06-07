@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         createTodo={() => console.log("todo created")}
       />
       <DisplayTodos
-        todos={null}
+        todos={[]}
         createSubtask={() => console.log("create")}
         toggleSubtaskCompletion={() => console.log("toggle")}
       />
