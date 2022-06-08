@@ -1,0 +1,17 @@
+{
+  "name": "state-machine",
+  "version": "1.0.0",
+  "main": "./app.ts",
+  "types": "./app.ts",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "xstate": "^4.32.1"
+  },
+  "files": ["app.ts"]
+}

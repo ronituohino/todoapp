@@ -1,7 +1,7 @@
 import { TodoList } from "../TodoList";
 import { TodoEntry } from "../TodoEntry";
 
-import { Todo } from "../../types/types";
+import { Todo } from "tstypes";
 
 export const DisplayTodos = ({
   todos,
